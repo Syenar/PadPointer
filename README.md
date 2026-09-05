@@ -32,7 +32,7 @@ Windows SmartScreen may warn on first launch because the EXE is not code-signed.
 - **Desktop + gaming.** Swap modes with a hold or two-button combo (default View + Menu). Gaming mode suspends injection so the controller is just a controller.
 - **Three mapping layers.** Base desktop map, plus two modifier layers (default LT media, RT text editing) with tap-vs-hold.
 - **JoyToKey-class depth.** Turbo, sequences, press-count, analog bands, profiles, auto profile switch, launch program/URL, and Raw Input/HID up to 128 buttons.
-- **Smart D-pad.** Spatial UI Automation jumps to the next visible control in that direction.
+- **Smart D-pad.** Global, snap-only UI Automation jumps directly to the nearest visible accessible control across apps.
 
 ## Features
 
@@ -72,6 +72,14 @@ Windows SmartScreen may warn on first launch because the EXE is not code-signed.
 | RB | Delete |
 | LT | Shift |
 | D-pad | Arrow keys |
+
+## Smart D-pad movement standard
+
+Smart D-pad is **global and snap-only**. Every visible accessible control competes in one directional nearest-target score, regardless of which app currently owns the cursor. A successful press lands at the verified center of a real Windows UI Automation control.
+
+It never behaves like smooth mouse movement: there are no pixel rays, empty-space landings, incremental nudges, or same-app preference. Covered, stale, wrapper, and snap-to-self targets are rejected. UI Automation indexing runs away from controller polling, and the last successful per-window results are retained when an app's accessibility provider is slow.
+
+This is the required D-pad behavior for current and future PadPointer releases. Apps that expose no Windows UI Automation controls cannot provide snap targets.
 
 ## Controller support
 
