@@ -43,10 +43,6 @@ If you have used JoyToKey, AntiMicroX, or Steam’s desktop layout: same idea, w
 
 These shots are the real app.
 
-<p align="center">
-  <img src="docs/screenshots/control-midnight.png" alt="PadPointer Midnight theme on the Control page" width="900" />
-</p>
-
 | Button mappings | Saved layouts |
 | --- | --- |
 | <img src="docs/screenshots/mappings.png" alt="PadPointer Mappings page with Base, LT, RT, and Keyboard overlay layers" /> | <img src="docs/screenshots/profiles.png" alt="PadPointer Profiles page showing Default Desktop" /> |
