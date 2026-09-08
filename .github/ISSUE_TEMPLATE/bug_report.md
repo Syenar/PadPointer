@@ -1,13 +1,15 @@
 ---
 name: Bug report
-about: Something in the PadPointer EXE did not work as expected
+about: Something in PadPointer did not work the way you expected
 title: "[Bug] "
 labels: bug
 ---
 
 ## What happened
 
-## Expected behavior
+What were you doing, and what went wrong?
+
+## What you expected
 
 ## Steps to reproduce
 
@@ -15,14 +17,13 @@ labels: bug
 2.
 3.
 
-## Environment
+## Setup
 
 - Windows version:
-- PadPointer version (from Releases):
-- Controller / connection (Xbox, Bluetooth, USB, HID, legacy):
+- PadPointer version (Help yourself: Settings shows it):
+- Controller and how it is connected (Xbox, Bluetooth, USB, HID, old joystick):
 - Input mode (Auto, XInput, legacy, Combine all):
 
-## Extra details
+## Anything else
 
-Screenshots or a `.padpointer` export if it is safe to share.
-Do not expect a source-code patch; this project ships the compiled app only.
+A screenshot, the diagnostic log, or a `.padpointer` export helps — skip anything you would not want public.

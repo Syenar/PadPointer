@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Download PadPointer
-    url: https://github.com/Syenar/PadPointer/releases/latest
-    about: Get the official Windows EXE. Source code is not published.
+  - name: Ask for a feature
+    url: https://github.com/Syenar/PadPointer/issues/new?labels=enhancement
+    about: Mapping, overlay, navigation, or quality-of-life ideas.
+  - name: Controller not detected
+    url: https://github.com/Syenar/PadPointer/issues/new?labels=hardware
+    about: Xbox, DualSense, HID, or legacy joystick detection problems.

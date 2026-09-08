@@ -5,8 +5,12 @@ title: "[Feature] "
 labels: enhancement
 ---
 
-## Problem
+## The problem
 
-What is hard to do with a controller on Windows today?
+What is awkward or missing when you use a controller on Windows today?
 
-## Proposal
+## What you would like PadPointer to do
+
+## Other tools
+
+If JoyToKey, Steam, AntiMicroX, or another remapper already does this, name it and what you want PadPointer to match or beat.
